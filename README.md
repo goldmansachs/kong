@@ -37,7 +37,7 @@ Whether you’re running in the cloud, on bare metal, or using containers, you c
 The Gateway will be available on the following ports on localhost:
 
 `:8000` on which Kong listens for incoming HTTP traffic from your clients, and forwards it to your upstream services.
-`:8001` on which the Admin API used to configure Kong listens.
+`:8001` on which the Admin API is used to configure Kong listens.
 
 Next, follow the [quick start guide](https://docs.konghq.com/gateway-oss/latest/getting-started/configuring-a-service/
 ) to tour the Gateway features.
@@ -47,10 +47,10 @@ Next, follow the [quick start guide](https://docs.konghq.com/gateway-oss/latest/
 By centralizing common API functionality across all your organization's services, the Kong API Gateway creates more freedom for engineering teams to focus on the challenges that matter most. 
 
 The top Kong features include:
-- Advanced routing, load balancing, health checking - all configurable via a RESTful admin API or declarative configuration.
-- Authentication and authorization for APIs using methods like JWT, basic auth, OAuth, ACLs and more.
+- Advanced routing, load balancing, and health checking - all configurable via a RESTful admin API or declarative configuration.
+- Authentication and authorization for APIs using methods like JWT, basic auth, OAuth, ACLs, and more.
 - Proxy, SSL/TLS termination, and connectivity support for L4 or L7 traffic.
-- Plugins for enforcing traffic controls, rate limiting, req/res transformations, logging, monitoring and including a plugin developer hub.
+- Plugins for enforcing traffic controls, rate limiting, req/res transformations, logging, monitoring, and including a plugin developer hub.
 - Sophisticated deployment models like Declarative Databaseless Deployment and Hybrid Deployment (control plane/data plane separation) without any vendor lock-in.
 - Native [ingress controller](https://github.com/Kong/kubernetes-ingress-controller) support for serving Kubernetes.
 
